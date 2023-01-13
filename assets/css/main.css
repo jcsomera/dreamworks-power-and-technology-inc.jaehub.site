@@ -521,12 +521,10 @@ section {
 }
 
 .gallery-item{
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  margin: 0rem auto;
-  -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+
+  overflow: scroll;
+  margin: 2rem auto;
+  object-fit: scale-down;
 }
 
 .gallery-item img{
