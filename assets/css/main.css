@@ -516,15 +516,16 @@ section {
 .gallery .box-container{
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 .gallery-item{
-
-  overflow: scroll;
-  margin: 2rem auto;
-  object-fit: scale-down;
+  width: 100%;
+  overflow: hidden;
+  margin: 1rem auto;
+  object-fit: fill;
 }
 
 .gallery-item img{
