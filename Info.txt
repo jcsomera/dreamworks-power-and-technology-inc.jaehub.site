@@ -16,3 +16,16 @@ Web info:
 Web domain: dreamworkspower.com
 Web design: Color=Orange and blue
 
+Address: 
+
+
+
+==================================================================================
+
+.gallery .box-container{
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
